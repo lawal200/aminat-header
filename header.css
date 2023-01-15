@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.drop{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.bowl{
+    width: 10px;
+    margin-right: 10px;
+}
+
+.maker{
+    width: 10px;
+    height: 7px;
+}
+
+.cap{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.capp{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.food{
+    width: 430px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.drag{
+    border: none;
+}
